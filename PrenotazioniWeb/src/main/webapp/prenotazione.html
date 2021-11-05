@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/prenotazionecontroller/creaprenotazione" method="get">
+  <label for="idUser">User Id:</label>
+  <input type="text" id="idUser" name="idUser"><br>
+  <label for="idPostazione">Postazione Id:</label>
+  <input type="text" id="idPostazione" name="idPostazione"><br>
+  <label for="data_prenotata">Data da prenotare:</label>
+<input type="date" id="start" name="data_prenotata"
+       value="2021-10-29"
+       min="2021-10-29" max="2050-12-31">
+   <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
